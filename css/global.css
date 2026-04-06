@@ -10,7 +10,11 @@ label,
 input,
 select,
 textarea,
-button {
+button,
+ul,
+li,
+ol,
+a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,7 +41,7 @@ button {
   --text-secondary-color: #ffffff;
 
   --title-weight: 700;
-  --text-weitght: 400;
+  --text-weight: 400;
   --menu-text-weight: 500;
 }
 
