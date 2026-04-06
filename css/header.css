@@ -3,8 +3,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 38px 48px;
+    position: relative;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -14,14 +16,32 @@ header {
 }
 
 .navigation-menu {
-    margin-top: 28px;
+    margin-top: 0;
 }
 
 
 input[type="checkbox"]:checked ~ nav {
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-tertiary-color);
+    padding: 24px 48px;
 }
 
 nav {
     display: none;
+
+}
+
+.list-links li {
+    color: var(--text-secondary-color);
+    list-style: none;
+    margin: 16px 0;
+}
+
+.list-links li a {
+    color: var(--text-secondary-color);
+    text-decoration: none;
 }

@@ -45,6 +45,10 @@ a {
   --menu-text-weight: 500;
 }
 
+body {
+    font-family: 'Montserrat';
+}
+
 h1 {
   color: var(--text-primary-color);
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
