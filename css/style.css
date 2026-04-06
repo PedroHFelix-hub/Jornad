@@ -10,7 +10,7 @@ body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
     src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
          url('fonts/Montserrat-Regular.woff') format('woff');
     font-display: swap;
-    font-style: normal
+    font-style: normal;
 }
 
 :root{
@@ -28,10 +28,6 @@ body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
     --title-weight: 700;
     --text-weitght: 400;
     --menu-text-weight: 50.
-
-    cards: 400 e 700
-    menu: 500
-    footer: 400
 }
 
 h1 {
