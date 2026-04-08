@@ -53,9 +53,3 @@ h1 {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: var(--title-weight);
 }
-
-h2 {
-  color: var(--text-primary-color);
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-weight: var(--text-weight);
-}
