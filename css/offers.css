@@ -1,57 +1,110 @@
-.cards {
-    color: var(--text-secondary-color);
-    background-color: black;
-    width: 312px;
-    height: 288px;
-    box-sizing: border-box;
-    border-radius: 16px;
-    padding: 24px 16px;
-    text-align: center;
+.offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
 }
 
+/*CARDS ESTILOS*/
+.cards {
+  color: var(--text-secondary-color);
+  background-color: black;
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 24px 16px;
+  text-align: center;
+}
 
 .cards header {
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px;
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .cards header p {
-    font-size: 20px;
-    font-weight: var(--text-weight);
+  font-size: 20px;
+  font-weight: var(--text-weight);
 }
 
-.cards header h3{
-    font-size: 40px;
-    font-weight: var(--title-weight);
-    margin: 8px 0 0;
+.cards header h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 8px 0 0;
 }
 
-.cards header span{
-    font-size:32px;
-    margin-top: 24px;
-    display: inline-block;
+.cards header span {
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
+}
+
+/*CARDS IMAGENS*/
+
+.cards.japao {
+  background: url(../img-mobile/japao.png) no-repeat;
+  background-size: cover;
+}
+
+.cards.san-andreas {
+  background: url(../img-mobile/san-andreas.png) no-repeat;
+  background-size: cover;
+}
+
+.cards.paraiba {
+  background: url(../img-mobile/paraiba.png) no-repeat;
+  background-size: cover;
+}
+
+.cards.manaus {
+  background: url(../img-mobile/manaus.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .offers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .cards {
+    width: 588px;
+    height: 308px;
+  }
 
-    .cards {
-        width: 588px;
-        height: 308px;
-    
-}
-
-    .cards header h3{
+  .cards header h3 {
     font-size: 48px;
     font-weight: var(--title-weight);
     margin: 8px 0 0;
-}
+  }
 
-    .cards header span{
+  .cards header span {
     font-size: 40px;
     margin-top: 24px;
     display: inline-block;
+  }
+
+  .button {
+    width: 200px; /* ← reduz o botão proporcionalmente */
+  }
 }
+
+@media screen and (min-width: 1440px) {
+  .cards {
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .offers {
+    width: 1250px;
+    margin: 0 auto;
+  }
 }
