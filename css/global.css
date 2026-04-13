@@ -69,7 +69,6 @@ body {
 
 h1 {
   color: var(--text-primary-color);
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-weight: var(--title-weight);
 }
 
@@ -100,7 +99,7 @@ section {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0px;
+  margin: 0;
   text-align: center;
 }
 
@@ -130,7 +129,6 @@ section {
   border-radius: 16px;
   padding: 24px 16px;
   text-align: center;
-  margin-bottom: 24px;
 }
 
 .cards header {
@@ -195,7 +193,7 @@ section {
   }
 
   .button {
-    width: 200px; /* ← reduz o botão proporcionalmente */
+    width: 200px;
   }
 
 }
@@ -205,10 +203,6 @@ section {
     font-size: 32px;
   }
 }
-
-  .button {
-    width: 200px; /* ← reduz o botão proporcionalmente */
-  }
 
 
 @media screen and (min-width: 1440px) {

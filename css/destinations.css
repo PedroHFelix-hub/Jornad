@@ -1,3 +1,8 @@
+.destination {
+    width: 312px;
+    margin: 0 auto;
+}
+
 .destination .item header {
     display: block;
     background-color: transparent;
@@ -6,24 +11,11 @@
     margin-bottom: 24px;
 }
 
-.destination {
-    width: 312px;
-    margin: 0 auto;
-}
-
 .destination-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-}
-
-.destination .item header {
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0;
-    margin-top: 24px;
 }
 
 .destination .item .img-item {
@@ -95,9 +87,6 @@ a.button {
 }
 
 @media screen and (min-width: 1024px) {
-    .destination {
-        width: 900px;
-    }
 
     .destination .item .img-item {
         width: 100%;
@@ -105,12 +94,12 @@ a.button {
     }
 
         .destination .item.tokyo .img-item {
-        background: url(../img-tablet/tokyo-tablet.jpg) no-repeat;
+        background: url(../img-desktop/tokyo-desktop.jpg) no-repeat center center;
         background-size: cover;
     }
 
         .destination .item.osaka .img-item {
-        background: url(../img-tablet/osaka-tablet.jpg) no-repeat;
+        background: url(../img-desktop/osaka-desktop.jpg) no-repeat center center;
         background-size: cover;
 }
 
