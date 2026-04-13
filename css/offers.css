@@ -1,26 +1,22 @@
-
-/*CARDS IMAGENS*/
-
 .cards.japao {
-  background: url(../img-mobile/japao.png) no-repeat;
+  background: url(../img-mobile/japao.png) no-repeat center center;
   background-size: cover;
 }
 
 .cards.san-andreas {
-  background: url(../img-mobile/san-andreas.png) no-repeat;
+  background: url(../img-mobile/san-andreas.png) no-repeat center center;
   background-size: cover;
 }
 
 .cards.paraiba {
-  background: url(../img-mobile/paraiba.png) no-repeat;
+  background: url(../img-mobile/paraiba.png) no-repeat center center;
   background-size: cover;
 }
 
 .cards.manaus {
-  background: url(../img-mobile/manaus.png) no-repeat;
+  background: url(../img-mobile/manaus.png) no-repeat center center;
   background-size: cover;
 }
-
 @media screen and (min-width: 768px) {
   .offers {
     flex-direction: row;
