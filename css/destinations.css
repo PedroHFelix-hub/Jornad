@@ -24,9 +24,6 @@
 }
 
 .destination p {
-    color: var(--text-primary-color);
-    font-size: 16px;
-    line-height: 24px;
     margin-bottom: 24px;
 }
 
@@ -50,10 +47,6 @@ a.button {
     text-align: center;
 }
 
-.section-title {
-    width: 280px;
-    margin: 0 auto 32px;
-}
 
 .destination .item.tokyo .img-item {
     background: url(../img-mobile/tokyo-mobile.jpg) no-repeat center center;
